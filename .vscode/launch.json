@@ -9,7 +9,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/D2_FirstClassFunctions/Starter/app.js"
+            "program": "${workspaceFolder}/D5_PrototypalInheritance/Starter/app.js"
         }
     ]
 }
