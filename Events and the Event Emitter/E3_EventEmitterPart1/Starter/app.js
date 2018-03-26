@@ -8,7 +8,7 @@ emtr.on('greet', function() {
 });
 
 emtr.on('greet', function() {
-    console.log('A agreeting occured!');
+    console.log('A greeting occured!');
 });
 
 // emitting the event, which will kick off the functions
