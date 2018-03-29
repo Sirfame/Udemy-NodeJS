@@ -6,6 +6,7 @@ function Greetr() {
 }
 
 // This line gives all the objects created with Greetr access to the methods and properties of EventEmitter, as if we created the object with a Event Emitter constructor.
+// Remember to inherit first before setting more properties/methods to our custom prototype
 util.inherits(Greetr, EventEmitter);
 
 Greetr.prototype.greet = function(data) {
