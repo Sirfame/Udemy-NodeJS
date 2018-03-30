@@ -2,9 +2,12 @@ var EventEmitter = require('events');
 var util = require('util');
 
 function Greetr() {
+	// This could be thought as the super constructor.
+	EventEmitter.call(this);
 	this.greeting = 'Hello world!';
 }
 
+// sets up the prototype chain
 util.inherits(Greetr, EventEmitter);
 
 Greetr.prototype.greet = function() {
