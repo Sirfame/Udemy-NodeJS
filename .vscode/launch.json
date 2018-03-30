@@ -9,7 +9,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/D9_MoreOnRequire/Starter/app.js"
+            "program": "${workspaceFolder}/Events and the Event Emitter/E9_InheritingFromEventEmitterPart2/Starter/app2.js"
         }
     ]
 }
