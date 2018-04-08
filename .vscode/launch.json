@@ -9,7 +9,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/Events and the Event Emitter/E9_InheritingFromEventEmitterPart2/Starter/app2.js"
+            "program": "${workspaceFolder}/HTTP and being a Web Server/G5_LetsBuildAWebServer/Starter/app.js"
         }
     ]
 }
