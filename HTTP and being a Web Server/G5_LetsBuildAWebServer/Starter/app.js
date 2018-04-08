@@ -10,5 +10,3 @@ http.createServer(function(req, res) {
 
     res.end('Hello world!\n');
 }).listen(1337, '127.0.0.1');
-
-// 127.0.0.1 is the standard internal IP address for the local system (localhost).
