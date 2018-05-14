@@ -9,7 +9,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/HTTP and being a Web Server/G5_LetsBuildAWebServer/Starter/app.js"
+            "program": "${workspaceFolder}/Express/I3_StaticAndMiddleware/Starter/app.js"
+            
         }
     ]
 }

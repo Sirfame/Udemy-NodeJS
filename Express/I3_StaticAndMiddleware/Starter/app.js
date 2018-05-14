@@ -17,8 +17,8 @@ app.get('/', function(req, res) {
 
 
 app.get('/person/:id', function(req, res) {
-	res.send('<html><head></head><body><h1>Person: ' + req.param.id + '</h1></body></html>');
-	console.log(req.param.id)
+	res.send('<html><head></head><body><h1>Person: ' + req.params.id + '</h1></body></html>');
+	console.log(req.params.id)
 });
 
 app.get('/api', function(req, res) {
