@@ -20,20 +20,16 @@ app.get('/', function(req, res) {
 	res.render('index');
 });
 
-app.get('/person/:id', function(req, res) {
-	res.render('person', { ID: req.params.id, Qstr: req.query.qstr });
+app.get('api/person/:id', function(req, res) {
+	// read from database
 });
 
-app.post('/person', urlencodedParser, function(req, res) {
-	res.send('Thank you!');
-	console.log(req.body.firstname);
-	console.log(req.body.lastname);
+app.post('/api/person/:id', urlencodedParser, function(req, res) {
+	// save to database
 });
 
-app.post('/personjson', jsonParser, function(req, res) {
-	res.send('Thank you for the JSON data!');
-	console.log(req.body.firstname);
-	console.log(req.body.lastname);
+app.delete('/api/person/:id', jsonParser, function(req, res) {
+	// delete from database
 });
 
 app.get('/api', function(req, res) {
