@@ -26,7 +26,8 @@ app.use('/', function (req, res, next) {
 		if(err) {
 			throw err;
 		}
-		console.log(rows)
+		// returns JS object
+		console.log(rows[0].Firstname)
 	})
 
 	next();
