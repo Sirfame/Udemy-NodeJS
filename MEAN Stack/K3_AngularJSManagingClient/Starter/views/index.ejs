@@ -4,7 +4,17 @@
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.js"></script>
     </head>
     <body ng-controller="MainController as vm">
-        
+        <input type="text" ng-model="vm.message" />
+        <br/>
+        {{ vm.message }}
+        <br/>
+
+        <ul>
+            <li ng-repeat="people in vm.people">
+                {{ people.name }}
+            </li>
+        </ul>
+        <script src="/assets/js/app.js"></script>
 
     </body>
 </html>
