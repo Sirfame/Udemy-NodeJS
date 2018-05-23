@@ -7,26 +7,26 @@ module.exports = function(app) {
             {
                 username: 'test',
                 todo: 'Buy milk',
-                isDone = false,
+                isDone: false,
                 hasAttachment: false
             },
             {
                 username: 'test',
                 todo: 'Feed dog',
-                isDone = false,
+                isDone: false,
                 hasAttachment: false
             },
             {
                 username: 'test',
                 todo: 'Learn node',
-                isDone = false,
+                isDone: false,
                 hasAttachment: false
             }
         ];
 
         // the create function accepts an array, matches the schema, and takes an error first callback 
         Todos.create(starterTodos, function(err, results) {
-            res.send(result);
+            res.send(results);
         });
     });
 }
