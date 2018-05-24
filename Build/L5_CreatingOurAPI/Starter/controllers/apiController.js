@@ -10,10 +10,6 @@ module.exports = function(app) {
     // and we will make sure to use body parser to handle url encoded data (where certain characters are encoded as special characters like spaces)
     app.use(bodyParser.urlencoded( { extended: true }));
 
-    app.get('/api/test', function(req, res) {
-        console.log("Test");
-    });
-
     // we get the :uname variable with request.params in the call back func
     app.get('/api/todos/:uname', function(req, res) {
         // .find on mongoose model has an error first callback.
